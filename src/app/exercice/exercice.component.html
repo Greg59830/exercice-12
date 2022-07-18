@@ -1,0 +1,9 @@
+<div class="col-12 col-md-8 offset-md-2 bg-dark text-white rounded p-3">
+    <h5 class="display-5">Test de Vue</h5>
+    <hr>
+    <div class="row">
+        <div class="col text-center" *ngFor="let letter of letters" [appChangeFontSize]="letterSize">
+            {{ letter }}
+        </div>
+    </div>
+</div>
